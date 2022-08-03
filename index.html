@@ -9,35 +9,40 @@
   <body>
 
   <!-- Navigation bar -->
-  <div class="container">
-      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-        </a>
+  <nav class="navbar">
+    <ul class="link-group">
+        <li class="link active"><a href="#">home</a></li>
+        <li class="link"><a href="#">about</a></li>
+        <li class="link"><a href="#">projects</a></li>
+        <li class="link"><a href="#">contact</a></li>
+    </ul>
+  </nav>
 
-        <ul class="nav nav-pills">
-          <!-- <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li> -->
-          <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Resume</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Contact Me</a></li>
-        </ul>
-      </header>
+    <!-- Home Section -->
+    <div class="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- About me text -->
+          <div class="col">
+            <h1 id="name">Hello, I am Lili Baker.</h1>
+            <h4>Software Developer</h4>
+          </div>
+          <!-- Photo section -->
+          <div class="col text-center">
+            <img id="home-image" src="public/images/Lili_emoji.jpeg" alt="Image of Lili">
+          </div>
+        </div>
+      </div>
+
     </div>
 
-    <!-- Name Header -->
-    <div id="name" class="name text-left padding">
-      <h1>Lili Baker</h1>
-    </div>
-
-    <!-- Short bio -->
-    <div class="short-description padding">
-      <h4>Software Developer</h3>
-    </div>
 
     <!-- About Me -->
-    <div id = "about-me" class="about-me padding">
-      <p>Bachelor of Science in Engineering: Computing Student at Olin College of Engineering</p>
+    <div id = "about-me" class="about-me padding info-section">
+      <h2 class="heading-padding">About Me</h4>
+      <p>I am a Software Developer currently completing a Bachelor of Sciene in Engineering, with a
+      concentration in computing from Olin College of Engineering. I have experience
+      in data science and web development, as well as mobile development.</p>
     </div>
 
     <!-- Portfolio -->
@@ -89,6 +94,9 @@
 
 
     <!-- Contact -->
+    <div>
+      <h2>Contact</h2>
+    </div>
 
 
   </body>

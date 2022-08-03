@@ -1,12 +1,12 @@
 
+.heading-padding{
+  padding-bottom: 1rem;
+}
+
 .padding{
   padding: 1.5rem 3rem;
 }
 
-.name{
-  font-size: 24px;
-  padding-top: 4rem;
-}
 
 
 .portfolio-image{
@@ -15,4 +15,61 @@
 
 .portfolio-table{
   padding: 1rem;
+}
+
+/* Navbar */
+.navbar{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.link-group{
+    list-style: none;
+    display: flex;
+}
+
+.link a{
+    color: #000;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    margin: 0 20px;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.link a:hover, .link.active a{
+    opacity: 1;
+}
+
+/* Home Screen */
+.home{
+  margin: 10rem;
+}
+
+#home-image{
+  padding: 1rem;
+  max-width: 50%;
+}
+
+#name{
+  font-size: 48px;
+}
+
+
+/* About Me */
+.info-section{
+  background-color: #D2D1D6;
+  border-radius: 15px;
+  margin: 6rem;
+  padding: 3rem;
+
 }
