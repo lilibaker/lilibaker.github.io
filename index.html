@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="public/css/styles.css">
   </head>
   <body>
+    <?php
+      include("contact.php");
+    ?>
   <script src="app.js"></script>
 
 
@@ -38,6 +41,8 @@
 
     </section>
 
+    <!-- Divider -->
+    <div class="divider div-transparent"></div>
 
     <!-- About Me -->
     <section id = "about-me-section" class="about-section about-me padding info-section">
@@ -47,135 +52,70 @@
       in data science and web development, as well as mobile development.</p>
     </section>
 
+    <!-- Divider -->
+    <div class="divider div-transparent"></div>
+
     <!-- Portfolio -->
-    <section id= "portfolio-section">
-      <p>portfolio</p>
+    <section id="portfolio-section" class="padding">
+      <h2 class="heading-padding">Portfolio</h2>
+
+
+
+      <div class="card-columns padding">
+        <div class="card">
+          <img class="card-img-top" src="public/images/NBPS_home.png" alt="North Broward Image">
+          <div class="card-body">
+            <h3 class = "card-title">North Broward Alumni Network</h3>
+            <h6 class="card-subtitle">Web Development</h6>
+            <p class="card-text">Webapp to connect alumni.</p>
+            <a href="#" class="card-link">See More</a>
+          </div>
+
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="public/images/NBPS_home.png" alt="North Broward Image">
+          <div class="card-body">
+            <h3 class = "card-title">North Broward Alumni Network</h3>
+            <h6 class="card-subtitle">Web Development</h6>
+            <p class="card-text">Webapp to connect alumni.</p>
+            <a href="#" class="card-link">See More</a>
+          </div>
+
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="public/images/NBPS_home.png" alt="North Broward Image">
+          <div class="card-body">
+            <h3 class = "card-title">North Broward Alumni Network</h3>
+            <h6 class="card-subtitle">Web Development</h6>
+            <p class="card-text">Webapp to connect alumni.</p>
+            <a href="#" class="card-link">See More</a>
+          </div>
+
+        </div>
+
+      </div>
     </section>
-    <div id="potfolio" class="portfolio padding">
-      <h3>Portfolio</h3>
-      <table>
-        <tr>
-          <td class="portfolio-table"><strong>North Broward Alumni Network</strong></td>
-          <td class="portfolio-table">HTML, CSS, JavaScript, EJS, Node.JS, MongoDB, Google Authentication</td>
-        </tr>
-        <tr>
-          <td class="portfolio-table"><strong>NewGrade</strong></td>
-          <td class="portfolio-table">Flutter</td>
-        </tr>
-      </table>
-    </div>
 
+    <!-- Divider -->
+    <div class="divider div-transparent"></div>
 
-
-    <div class="row mb-2">
-    <div class="col-md-6">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <h3 class="mb-0">North Broward Alumni Network</h3>
-          <div class="mb-1 text-muted">HTML, CSS, JavaScript, EJS, Express.JS, Node.JS, MongoDB, Google Authentication</div>
-          <p class="card-text mb-auto">Collaborated with the Alumni Network to design and develop a webapp that allows alumni to find and interact with other alumni</p>
-          <a href="#" class="stretched-link">See Video Demonstration</a>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <img class = "portfolio-image" src="public/images/NBPS_home.png" alt="Image of the Home Page of the Website">
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container-fluid">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <h3 class="mb-0">North Broward Alumni Network</h3>
-          <div class="mb-1 text-muted">HTML, CSS, JavaScript, EJS, Express.JS, Node.JS, MongoDB, Google Authentication</div>
-          <p class="card-text mb-auto">Collaborated with the Alumni Network to design and develop a webapp that allows alumni to find and interact with other alumni</p>
-          <a href="#" class="stretched-link">See Video Demonstration</a>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <img class = "portfolio-image" src="public/images/NBPS_home.png" alt="Image of the Home Page of the Website">
-        </div>
-      </div>
-    </div>
-
-
-    <!-- test -->
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img class = "portfolio-image" src="public/images/NBPS_home.png" alt="Image of the Home Page of the Website">
-        </div>
-        <div class="flip-card-back">
-          <h1>John Doe</h1>
-          <p>Architect & Engineer</p>
-          <p>We love that guy</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- test -->
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <h3 class="mb-0">North Broward Alumni Network</h3>
-              <div class="mb-1 text-muted">HTML, CSS, JavaScript, EJS, Express.JS, Node.JS, MongoDB, Google Authentication</div>
-              <p class="card-text mb-auto">Collaborated with the Alumni Network to design and develop a webapp that allows alumni to find and interact with other alumni</p>
-              <a href="#" class="stretched-link">See Video Demonstration</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <img class = "portfolio-image" src="public/images/NBPS_home.png" alt="Image of the Home Page of the Website">
-            </div>
-          </div>
-        </div>
-        <div class="flip-card-back">
-          <h1>John Doe</h1>
-          <p>Architect & Engineer</p>
-          <p>We love that guy</p>
-        </div>
-      </div>
-    </div>
-
-
-
-    <!-- test -->
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <h3>North Broward Alumni Network</h3>
-                <div class="mb-1 text-muted">HTML, CSS, JavaScript, EJS, Express.JS, Node.JS, MongoDB, Google Authentication</div>
-              </div>
-              <div class="col">
-                <img class = "portfolio-image" src="public/images/NBPS_home.png" alt="Image of the Home Page of the Website">
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-        <div class="flip-card-back">
-          <p class="card-text mb-auto">Collaborated with the Alumni Network to design and develop a webapp that allows alumni to find and interact with other alumni</p>
-          <a href="#" class="stretched-link">See Video Demonstration</a>
-        </div>
-      </div>
-    </div>
     <!-- resume -->
 
 
     <!-- Contact -->
-    <section id="contact-section" class="info-section">
-      <h2>Contact</h2>
-      <form class="contact-form">
-        <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
-        <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
-        <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
-        <button type="submit" class="form-submit-btn">contact</button>
-    </form>
-    </section>
+    <form name="contact_form" action="contact.php" method="POST" >
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required>
 
+        <label for="email">Email Address</label>
+        <input type="text" name="email" id="email" required>
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" required></textarea>
+
+        <!-- <button type="submit" name="submit" value="submit">Send Message</button> -->
+        <input type="submit" name="send" value="submit"><input type="reset" value="Clear">
+    </form>
 
   </body>
 </html>
