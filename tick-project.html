@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Lili Baker</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="public/css/styles.css">
+</head>
+
+<body>
+
+  <!-- Navigation bar -->
+  <nav class="navbar">
+    <ul class="link-group">
+      <li class="link"><a href="index.html#home-section">home</a></li>
+      <li class="link"><a href="index.html#portfolio-section">projects</a></li>
+      <li class="link"><a href="index.html#about-me-section">about</a></li>
+      <li class="link"><a href="index.html#contact-section">contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="project-intro padding">
+    <h1 class="project-title">Analysis of Effects of Weather Patterns on Ticks</h1>
+    <h3 class="project-detail">Web Scraping and Data Science</h3>
+
+  </div>
+
+  <div class="project-description padding">
+    <h2 class="heading-padding">About the Project</h2>
+    <p>
+      This project obtains data from the National Ecological Observatory Network,
+      and uses said data to perform an analysis of the impact of relative
+      humidity and precipitation on tick populations at the Harvard Forest &
+      Quabbin Watershed, a NEON field site managed by Harvard University. In
+      order to do so, the tick population, relative humidity, and precipitation
+      data are accessed from NEON using an API.
+    </p>
+  </div>
+
+
+
+  <div class="project-tools padding">
+    <ul class="project-tech-list">
+      <li>Python</li>
+      <li>Pandas</li>
+      <li>NumPy</li>
+      <li>Matplotlib</li>
+      <li>Requests</li>
+    </ul>
+  </div>
+
+  <!-- Divider -->
+  <div class="divider div-transparent"></div>
+
+
+  <div class="project-description padding container">
+    <div class="row">
+      <div class="col">
+        <h2 class="heading-padding">Skills Used</h2>
+        <ul class="project-skills-list">
+          <li>Design unit tests to check functions operate as intended</li>
+          <li>Scrape data from NEON datasource using requests</li>
+          <li>Manipulate data to narrow down to required information</li>
+          <li>Use Matplotlib to illustrate impacts of weather patterns</li>
+          <li>Use NumPy to determine correlation between weather patterns and ticks</li>
+          <li>Collaborate with a group in each step of the process</li>
+          <li>Write a computational essay explaining procedure and results</li>
+        </ul>
+      </div>
+      <div class="col text-center btn-col">
+
+
+        <a href="https://github.com/olincollege/tick-weather-analyzer"
+        class="btn btn-outline-dark btn-padding">
+           <img alt="github logo" src="public/images/GitHub-Mark-64px.png">
+           <p>View on Github</p>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Divider -->
+  <div class="divider div-transparent"></div>
+
+  <div class="">
+    <h2 class="heading-padding project-images-text project-description project-images-title">Abbreviated Results</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img class=" project-images"src=" public/images/tick-weather.png" alt="Tick Weather Image">
+
+        </div>
+        <div class="col">
+          <img class=" project-images" src="public/images/tick-correlation.png" alt="Tick Correlation Image">
+
+        </div>
+      </div>
+    </div>
+    <p class="padding project-images-text">
+      Based on our graphs, one may suggest that as relative humidity increases, the occurences of ticks also increase. It also suggests that precipitation has no impact on tick population. However, our data is taken over the course of five months, which is a limited amount of time, and the correlation we see between humidity and tick population does not necessarily demonstrate causation. The relationship between tick population and relative humidity could be due to external factors, such as an increase in primary hosts of ticks (commonly deer and mice). One major contextual implication is climate change causing an increase in temperature may imply an increase in tick population as global warming continues, which could lead to an increase in tick-borne diseases.
+    </p>
+  </div>
+
+</body>
+
+</html>
