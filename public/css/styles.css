@@ -1,4 +1,13 @@
 
+body {
+  background: #10131D;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .heading-padding{
   padding-bottom: 1rem;
 }
@@ -9,11 +18,25 @@
 
 
 .portfolio-image{
-    width: 400px;
+  width: 400px;
 }
 
 .portfolio-table{
   padding: 1rem;
+}
+
+.centered-box {
+  margin: 0rem auto;
+}
+
+.rectangle-background {
+  width: 70%;
+  height: 186.625rem;
+  max-width: 66.9375rem;
+  /* flex-shrink: 0; */
+  border-radius: 1.875rem;
+  background: #181D25;
+  /* transform: translate(-50%, -50%); */
 }
 
 /* Navbar */
@@ -37,7 +60,7 @@
 }
 
 .link a{
-    color: #000;
+    color: #FFF;
     opacity: 0.5;
     text-decoration: none;
     text-transform: capitalize;
@@ -56,7 +79,7 @@
 /* Home Page */
 /* Home Screen */
 #home-section{
-  margin: 10rem;
+  margin: 9rem 13rem 0rem 13rem;
   height: 100%;
 }
 
@@ -66,9 +89,41 @@
 }
 
 #name{
-  font-size: 48px;
+  width: 39.0625rem;
+  height: 9.3125rem;
+  flex-shrink: 0;
+  color: #FFF;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
+#work-title {
+  width: 28.875rem;
+  height: 1.5625rem;
+  color: #FFF;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.circle-container {
+  margin-left: 2rem;
+  position: relative;
+  width: 15.3125rem;
+  height: 15.3125rem;
+}
+
+.circle-image {
+  position: relative;
+  width: 18rem; 
+  height: auto; 
+  z-index: 1; 
+  border-radius: 50%;
+  overflow: hidden;
+}
 
 /* About Me */
 .info-section{
