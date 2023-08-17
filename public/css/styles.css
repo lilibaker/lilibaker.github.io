@@ -31,12 +31,11 @@ body {
 
 .rectangle-background {
   width: 70%;
-  height: 186.625rem;
+  height: auto;
   max-width: 66.9375rem;
-  /* flex-shrink: 0; */
   border-radius: 1.875rem;
   background: #181D25;
-  /* transform: translate(-50%, -50%); */
+  margin-bottom: 8rem;
 }
 
 .section-icon {
@@ -265,9 +264,32 @@ body {
   list-style: none;
 
 }
-.skill-list{
+
+
+/* Skills */
+.skill-row {
+  margin: 2rem 6rem;
+
+}
+
+.skill-col {
+  text-align: center;
+}
+
+.skill-list {
   list-style: none;
 }
+
+.skill-list li {
+  margin-bottom: .5rem;
+}
+
+.list-title {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+
 
 
 /* Portfolio */
