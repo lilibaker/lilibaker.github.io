@@ -2,12 +2,13 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <title>Lili Baker</title>
-  <link rel="icon" type="image/x-icon" href="public/images/favicon.ico">
+    <meta charset="utf-8">
+    <title>Lili Baker</title>
+    <link rel="icon" type="image/x-icon" href="public/images/favicon.ico">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="public/css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/styles.css">
 </head>
 
 <body>
@@ -16,59 +17,102 @@
   <nav class="navbar">
     <ul class="link-group">
       <li class="link"><a href="index.html#home-section">home</a></li>
-      <li class="link"><a href="index.html#portfolio-section">projects</a></li>
       <li class="link"><a href="index.html#about-me-section">about</a></li>
-      <li class="link"><a href="index.html#contact-section">contact</a></li>
+      <li class="link"><a href="index.html#work-experience">experience</a></li>
+      <li class="link"><a href="index.html#projects">projects</a></li>
+      <li class="link"><a href="index.html#skills">skills</a></li>
+      <li class="link"><a href="index.html#resume">resume</a></li>
     </ul>
   </nav>
 
-  <div class="project-intro padding">
-    <h1 class="project-title">Analysis of Inequities in Environmental Regulation</h1>
-    <h3 class="project-detail">Data Science</h3>
+  <div>
+    <!-- Sticky Contact Buttons -->
+    <div class="sticky-buttons">
+        <div class="contact-button">
+          <a href="https://github.com/lilibaker">
+            <svg class="contact-image" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-github" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+          </a>
+        </div>
+        <div class="contact-button">
+          <a href="https://www.linkedin.com/in/lili-baker-678a521a2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLia6WGFLRA%2Blb1TvPH3xFA%3D%3D" class="button-image">
+            <svg class="contact-image" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+            </svg>          
+          </a>
+        </div>
+        <div class="contact-button">
+          <a href="mailto:ljbaker.contact@gmail.com?subject=Mail from Website" class="button-image">
+            <svg class="contact-image" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+              <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+            </svg>       
+        </a>
+        </div>
+      </div>
 
+      <!-- Project content -->
+      <div>
+        <!-- Header -->
+        <div class="row project-margin project-header-margin">
+            <div class="col-12 col-md-8 project-left">
+                <h1 class="project-title-long">Analysis of Inequities in Environmental Regulation</h1>
+                <h4>Data Science</h4>
+            </div>
+            <div class="col-6 col-md-4 project-right-title">
+              <div class="project-button">
+                <a href="https://envirodatagov.org/publication/how-gaps-and-disparities-in-epa-data-undermine-climate-and-environmental-justice-screening-tools/">
+                  <svg class="project-code" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-file-earmark-bar-graph-fill" viewBox="0 0 16 16">
+                    <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm.5 10v-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-2.5.5a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1zm-3 0a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-1z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+        </div>
+        <hr class="project-title-line">
+        <!-- About and technologies -->
+        <div class="row project-margin">
+            <div class="col-12 col-md-8 project-left project-left-padding">
+                <h4 class="project-content-title">ABOUT</h4>
+                <p class="project-limited-width">
+                  Investigated the inequities in environmental regulation performed by the
+                  Environmental Protection Agency through the use of Python. This project
+                  was a collaborative effort between Olin College's Public Interest
+                  Technology group and the Environmental Data Governance Initiative.
+                  The data demonstrated that majority minority communities had more gaps in
+                  environmental regulation data than majority white communities.
+                </p>
+            </div>
+            <div class="col-6 col-md-4 project-right">
+                <ul class="skill-list project-right-margin">
+                    <li class="project-right-margin project-content-title">TECHNOLOGIES</li>
+                    <li>Python</li>
+                    <li>Pandas</li>
+                    <li>NumPy</li>
+                    <li>Matplotlib</li>
+                    <li>Jupyter Notebooks</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="project-content-line">
+        <!-- Skills used -->
+        <div class="row project-margin">
+            <div class="col-12 col-md-8 project-left project-left-padding">
+                <h4 class="project-content-title">SKILLS USED</h4>
+                <ul class="project-limited-width">
+                  <li>Manipulate data to narrow down to required information</li>
+                  <li>Use Matplotlib to illustrate data inequities</li>
+                  <li>Use NumPy to determine correlation between political leanings and data collection</li>
+                  <li>Collaborate with a group in each step of the process</li>
+                </ul>
+            </div>
+        </div>
+      </div>
   </div>
 
-  <div class="project-description padding">
-    <h2 class="heading-padding">About the Project</h2>
-    <p>
-      Investigated the inequities in environmental regulation performed by the
-      Environmental Protection Agency through the use of Python. This project
-      was a collaborative effort between Olin College's Public Interest
-      Technology group and the Environmental Data Governance Initiative.
-      The data demonstrated that majority minority communities had more gaps in
-      environmental regulation data than majority white communities.
-    </p>
-  </div>
 
 
 
-  <div class="project-tools padding">
-    <ul class="project-tech-list">
-      <li>Python</li>
-      <li>Pandas</li>
-      <li>NumPy</li>
-      <li>Matplotlib</li>
-    </ul>
-  </div>
-
-  <!-- Divider -->
-  <div class="divider div-transparent"></div>
-
-
-  <div class="project-description padding">
-    <h2 class="heading-padding">Skills Used</h2>
-    <ul class="project-skills-list">
-      <li>Manipulate data to narrow down to required information</li>
-      <li>Use Matplotlib to illustrate data inequities</li>
-      <li>Use NumPy to determine correlation between political leanings and data collection</li>
-      <li>Collaborate with a group in each step of the process</li>
-    </ul>
-  </div>
-
-  </div>
-
-  <!-- Divider -->
-  <div class="divider div-transparent"></div>
 
 
 </body>

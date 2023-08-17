@@ -332,6 +332,16 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.project-title-long {
+  flex-shrink: 0;
+  color: #FFF;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1.5rem;
+}
+
 .project-title-line{
   border: .1rem solid white;
   width: 84%;
@@ -391,7 +401,6 @@ body {
 
 
 
-
 /* Portfolio */
 #portfolio-section{
   margin: 6rem;
@@ -434,68 +443,3 @@ body {
 }
 
 
-
-/* Project Pages */
-/* .project-intro{
-  background-color: #D2D1D6;
-
-}
-
-.project-title{
-  font-size: 48px;
-  margin: 17rem 7rem 2rem 7rem;
-
-}
-
-.project-detail{
-  color: #676768;
-  margin: 0 0 0 7rem;
-}
-
-
-.project-description{
-  margin: 6rem 6rem 3rem 6rem;
-  padding: 3rem;
-}
-
-.project-tech-list{
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.project-tech-list li{
-  display: inline-block;
-  padding: 10px 30px;
-  margin: 0 20px;
-}
-
-.project-video{
-  text-align: center;
-  margin: 3rem 0;
-}
-
-.btn-padding{
-  padding:1rem 1rem 0 1rem;
-}
-
-.btn-col{
-  align-items: center;
-  text-align: center;
-  vertical-align: middle;
-
-}
-
-.project-images-title{
-  margin-top: 6rem;
-  margin-bottom: 0rem;
-}
-.project-images-text{
-  margin-left: 6rem;
-  margin-right: 6rem;
-}
-
-.project-images{
-  max-width: 75%;
-} */

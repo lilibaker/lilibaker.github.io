@@ -51,3 +51,17 @@ window.onscroll = function() {
 //   // Apply the fixed transparency value when scrolled
 //   header.style.backgroundColor = `rgba(255, 255, 255, ${targetOpacity})`;
 // });
+
+
+// const sections = document.querySelectorAll(".interactive-section");
+
+// sections.forEach(section => {
+//   section.addEventListener("mouseenter", function () {
+//     section.style.opacity = "1";
+//   });
+
+//   section.addEventListener("mouseleave", function () {
+//     section.style.opacity = "0";
+//   });
+
+// });
