@@ -16,12 +16,13 @@
   <!-- Navigation bar -->
   <nav class="navbar">
     <ul class="link-group">
-      <li class="link"><a href="index.html#home-section">home</a></li>
+        <li class="link"><a href="index.html#home-section">home</a></li>
       <li class="link"><a href="index.html#about-me-section">about</a></li>
       <li class="link"><a href="index.html#work-experience">experience</a></li>
       <li class="link"><a href="index.html#projects">projects</a></li>
       <li class="link"><a href="index.html#skills">skills</a></li>
       <li class="link"><a href="index.html#resume">resume</a></li>
+    </ul>
   </nav>
 
   <div>
@@ -55,8 +56,8 @@
         <!-- Header -->
         <div class="row project-margin project-header-margin">
             <div class="col-12 col-md-8 project-left">
-                <h1 class="project-title">Alumni Network</h1>
-                <h4>Web Development</h4>
+                <h1 class="project-title">Olin Rocketry</h1>
+                <h4>Embedded Software</h4>
             </div>
             <div class="col-6 col-md-4 project-right-title">
             </div>
@@ -67,27 +68,17 @@
             <div class="col-12 col-md-8 project-left project-left-padding">
                 <h4 class="project-content-title">ABOUT</h4>
                 <p class="project-limited-width">
-                  The Alumni Network for North Broward Prepartory School was having
-                  issues disseminating information to alumni post-graudation and wanted
-                  to create a way for alumni to cultivate connections. After learning
-                  the needs of the organization, I designed a secure webapp that
-                  enabled users to search for other alumni, edit their profile,
-                  and publish posts about career opportunities. The webapp was presented
-                  to the Alumni Network throughout the development process and the
-                  feedback received was implemented.
+                    Develop software to control the stages of our high powered rocket for the Intercollegiate Rocketry Competition.
+                    Ensure that the rocket correctly gathers data from the various flight sensors, in addition to using the data to
+                    determine whether to switch flight stages. This ensures that our parachute not only deploys correctly, but is also recoverable.
                 </p>
             </div>
             <div class="col-6 col-md-4 project-right">
                 <ul class="skill-list project-right-margin">
                     <li class="project-right-margin project-content-title">TECHNOLOGIES</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>EJS</li>
-                    <li>Express.JS</li>
-                    <li>MongoDB</li>
-                    <li>Node.JS</li>
-                    <li>Figma</li>
-                    <li>Bootsrap</li>
+                    <li>C++</li>
+                    <li>KiCad</li>
+                    <li>Teensy</li>
                 </ul>
             </div>
         </div>
@@ -97,23 +88,30 @@
             <div class="col-12 col-md-8 project-left project-left-padding">
                 <h4 class="project-content-title">SKILLS USED</h4>
                 <ul class="project-limited-width">
-                  <li>Designed test plan, database structure, and user experience maps</li>
-                  <li>Created a prototype using Figma</li>
-                  <li>Developed a dynamic user interface with HTML/CSS and EJS</li>
-                  <li>Implemented Model View Controller architecture with Mongoose</li>
-                  <li>Created a NoSQL database with MongoDB</li>
-                  <li>Implemented REST API to create career posts and update profile information</li>
-                  <li>Authenticated users with Google Authentication through Passport</li>
-                  <li>Collaborated with client to develop product that matched their needs</li>
+                    <li>Learned how to use KiCad to design flight computers</li>
+                    <li>Utilized object-oriented programming to effectively structure our flight software</li>
+                    <li>Created a state machine to switch between stages of flight</li>
+                    <li>Gathered data from on board sensors using various APIs</li>
                 </ul>
             </div>
         </div>
         <hr class="project-content-line">
         <!-- Image -->
         <div class="text-center padding">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Np519KzF4E8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        </div>
+            <div class="row">
+                <div class="col">
+                  <img class=" project-picture"src="public/images/avionics.jpeg" alt="Avionics Hardware">
+        
+                </div>
+                <div class="col">
+                  <img class=" project-picture" src="public/images/avionics_laptop.jpeg" alt="Avionics Dashboard">
+                </div>
+              </div>
+            </div>
+            <p class="padding">
+                Above illustrates the flight computer created using KiCad, as well as the monitoring dashboard that
+                depicts not only the current sensor readings, but also the stage of flight.
+            </p>
       </div>
   </div>
 

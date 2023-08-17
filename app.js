@@ -19,14 +19,49 @@
 //         }
 //     })
 // })
-$(function() {
- $(window).on("scroll", function() {
-    if($(window).scrollTop() > 280) {
-        //background on scroll
-        $("#navbar").addClass("scroll");
-    } else {
-        //background at top
-       $("#navbar").removeClass("scroll");
-    }
-  });
-});
+// $(function() {
+//  $(window).on("scroll", function() {
+//     if($(window).scrollTop() > 280) {
+//         //background on scroll
+//         $("#navbar").addClass("scroll");
+//     } else {
+//         //background at top
+//        $("#navbar").removeClass("scroll");
+//     }
+//   });
+// });
+
+
+window.onscroll = function() {
+  var header = document.querySelector('header');
+  if (window.pageYOffset > 100) {
+    header.style.backgroundColor = 'rgba(255, 255, 255, 1)';
+  } else {
+    header.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
+  }
+};
+
+// window.addEventListener('scroll', function() {
+//   var header = document.querySelector('header');
+//   var scrolled = window.scrollY;
+
+//   // Set the transparency value (0 to 1) that you want for the background
+//   var targetOpacity = 0.8;
+
+//   // Apply the fixed transparency value when scrolled
+//   header.style.backgroundColor = `rgba(255, 255, 255, ${targetOpacity})`;
+// });
+
+
+// const sections = document.querySelectorAll(".interactive-section");
+
+// sections.forEach(section => {
+//   section.addEventListener("mouseenter", function () {
+//     section.style.opacity = "1";
+//   });
+
+//   section.addEventListener("mouseleave", function () {
+//     section.style.opacity = "0";
+//   });
+
+// });

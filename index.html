@@ -5,6 +5,7 @@
     <title>Lili Baker</title>
     <link rel="icon" type="image/x-icon" href="public/images/favicon.ico">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="public/css/styles.css">
   </head>
   <body>
@@ -18,11 +19,40 @@
   <nav id="navbar" class="navbar">
     <ul class="link-group">
         <li class="link"><a href="#home-section">home</a></li>
-        <li class="link"><a href="#portfolio-section">projects</a></li>
         <li class="link"><a href="#about-me-section">about</a></li>
-        <li class="link"><a href="#contact-section">contact</a></li>
+        <li class="link"><a href="#work-experience">experience</a></li>
+        <li class="link"><a href="#projects">projects</a></li>
+        <li class="link"><a href="#skills">skills</a></li>
+        <li class="link"><a href="#resume">resume</a></li>
     </ul>
   </nav>
+
+  
+
+  <div>
+    <!-- Sticky Contact Buttons -->
+    <div class="sticky-buttons">
+      <div class="contact-button">
+        <a href="https://github.com/lilibaker">
+          <svg class="contact-image" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+        </a>
+      </div>
+      <div class="contact-button">
+        <a href="https://www.linkedin.com/in/lili-baker-678a521a2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLia6WGFLRA%2Blb1TvPH3xFA%3D%3D" class="button-image">
+          <svg class="contact-image" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+          </svg>          
+        </a>
+      </div>
+      <div class="contact-button">
+        <a href="mailto:ljbaker.contact@gmail.com?subject=Mail from Website" class="button-image">
+          <svg class="contact-image" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+          </svg>        </a>
+      </div>
+    </div>
 
     <!-- Home Section -->
     <section id="home-section">
@@ -30,138 +60,225 @@
         <div class="row align-items-center">
           <!-- About me text -->
           <div class="col">
-            <h1 id="name">Hello, I am Lili Baker.</h1>
-            <h4>Software Developer</h4>
+            <h1 id="name">Lili Baker</h1>
+            <h4 id="work-title">Software Developer</h4>
           </div>
           <!-- Photo section -->
           <div class="col text-center">
-            <img id="home-image" src="public/images/Lili_emoji.jpeg" alt="Image of Lili">
+            <div class="circle-container">
+              <img src="public/images/memoji.png" alt="Lili Memoji" class="circle-image">
+            </div>
           </div>
         </div>
       </div>
 
     </section>
 
+    <!-- Body -->
+    <div class="centered-box rectangle-background">
 
-    <!-- Divider -->
-    <div class="divider div-transparent"></div>
+      <!-- About me -->
+      <section id="about-me-section" class="padding">
+        <div class="icon-title">
+          <svg class="section-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+          </svg>
+          <h4 class="section-header">ABOUT ME</h4>
+        </div>
+        <div class="centered-text">
+          <p class="body-text">
+            I am a Software Developer completing my Bachelor of Science in Engineering, with a concentration in computing, at Olin College of Engineering.
+            I am passionate about applying my technical skills to projects working towards societal goals, particularly with regards to tackling the climate crisis.
+            I have experience in embedded software, data science, web development, and game development, and am interested in opportunities to expland my knowledge.
+          </p>
+        </div>  
+      </section>
 
-    <!-- Portfolio -->
-    <section id="portfolio-section" class="padding">
-      <h2 class="heading-padding">Projects</h2>
+      <hr class="section-break">
 
+      <!-- Work experience -->
+      <section id="work-experience" class="padding">
+        <div class="icon-title">
+          <svg class="section-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-square" viewBox="0 0 16 16">
+            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+            <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+          </svg>
+          <h4 class="section-header">WORK EXPERIENCE</h4>
+        </div>
+        <div class="experience-box">
+          <h5 class="experience-header">Siemens eMobility</h5>
+          <h6 class="experience-subtitle"><i>eMobility Engineering Intern - Software</i></h6>
+          <ul>
+            <li>Design software to enable quick testing of software components on EV chargers using Rust</li>
+            <li>Formulate unit tests to ensure feature parity of charger libraries in Rust</li>
+            <li>Develop a simulation for charge distribution across multifamily charging stations to demonstrate energy savings using Python</li>
+          </ul>
+        </div>
+        <hr class="experience-break">
+        <div class="interactive-section experience-box">
+          <h5 class="experience-header">Olin Rocketry</h5>
+          <h6 class="experience-subtitle"><i>Avionics Team Member</i></h6>
+          <ul>
+            <li>Design software architecture for obtaining data and switching between flight stages as needed in C++</li>
+              <li>Implement detection of rocket orientation using quaternions and detection of rocket location for recovery</li>
+              <li>Design system architecture and PCBs using KiCad</li>
+          </ul>
+          <a class="experience-link" href="rocketry.html">Learn more</a>
+        </div>
+        <hr class="experience-break">
+        <div class="interactive-section experience-box">
+          <h5 class="experience-header">OutMaine - Olin Public Interest Technology</h5>
+          <h6 class="experience-subtitle"><i>Coding Team Lead</i></h6>
+          <ul>
+            <li>Design and develop a children’s game using C# and Unity that teaches children about LGBTQ+ identities</li>
+            <li>Plan sprints for each phase of game development</li>
+          </ul>
+          <a class="experience-link" href="outmaine.html">Learn more</a>
+        </div>
+        <hr class="experience-break">
+        <div class="interactive-section experience-box">
+          <h5 class="experience-header">Environmental Data Governance Initiative - Olin Public Interest Technology</h5>
+          <h6 class="experience-subtitle"><i>Data Science</i></h6>
 
+          <ul>
+            <li>Explore the EPA’s Enforcement and Compliance History Online database and develop visualizations of the inequities in environmental regulation using Python</li>
+            <li>Synthesize results to write a white paper to the EPA to improve their data systems</li>
+          </ul>
+          <a class="experience-link" href="edgi.html">Learn more</a>          
+        </div>
+      </section>
 
-      <div class="card-columns padding">
-        <div class="card">
-          <img class="card-img-top" src="public/images/NBPS_home.png" alt="North Broward Image">
-          <div class="card-body">
-            <h3 class = "card-title">North Broward Alumni Network</h3>
-            <h6 class="card-subtitle">Web Development</h6>
-            <p class="card-text">Created using Figma, HTML / CSS, Node.JS, MongoDB, EJS, and Express.JS in collaboration with
-               North Broward Preparatory School's Alumni Network.</p>
-            <a href="alumni-network.html" class="card-link">Learn More</a>
+      <hr class="section-break">
+
+      <!-- Projects -->
+      <section id="projects" class="padding">
+        <div class="icon-title">
+          <svg class="section-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb-fill" viewBox="0 0 16 16">
+            <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+          <h4 class="section-header">PROJECTS</h4>
+        </div>
+
+        <div class="card-columns padding">
+          <div class="card">
+            <img class="card-img-top" src="public/images/asl_classroom.png" alt="ASL Classroom Image">
+            <div class="card-body">
+              <h3 class = "card-title">ASL Immersion Program</h3>
+              <h6 class="card-subtitle">Collaborative Design</h6>
+              <p class="card-text">User Oriented Design project focused on ASL Interpreters.</p>
+              <a href="asl-interpreter.html" class="card-link">Learn More</a>
+            </div>
           </div>
 
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="public/images/tick-weather.png" alt="Tick Weather Image">
-          <div class="card-body">
-            <h3 class = "card-title">Analysis of Effects of Weather Patterns on Ticks</h3>
-            <h6 class="card-subtitle">Data Science</h6>
-            <p class="card-text">Using Python, Pandas, NumPy, Matplotlib, and Requests, the effects of weather patterns on ticks in Massachussetts was analyzed.</p>
-            <a href="tick-project.html" class="card-link">Learn More</a>
+          <div class="card">
+            <img class="card-img-top" src="public/images/dancing_degas.jpeg" alt="Dancing Degas Image">
+            <div class="card-body">
+              <h3 class = "card-title">Dancing Degas</h3>
+              <h6 class="card-subtitle">Embedded Software</h6>
+              <p class="card-text">Interactive art generator using Python and GRBL with a CNC Motor Shield.</p>
+              <a href="dancing-degas.html" class="card-link">Learn More</a>
+            </div>
           </div>
 
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="public/images/EDGI.png" alt="EDGI Image">
-          <div class="card-body">
-            <h3 class = "card-title">Environmental Data Governance Initiative</h3>
-            <h6 class="card-subtitle">Data Science</h6>
-            <p class="card-text">Investigated the inequities in environmental regulation performed by the EPA through the use of Python. This project was
-            a collaborative effort between Olin College's Public Interest Technology group and the Environmental Data Governance Initiative.</p>
-            <a href="edgi.html" class="card-link">Learn More</a>
+          
+          <div class="card">
+            <img class="card-img-top" src="public/images/tick-weather.png" alt="Tick Weather Image">
+            <div class="card-body">
+              <h3 class = "card-title">Analysis of Effects of Weather Patterns on Ticks</h3>
+              <h6 class="card-subtitle">Data Science</h6>
+              <p class="card-text">Analyzed the effects of weather patterns on ticks in Massachussetts using Python, Pandas, NumPy, Matplotlib, and Requests.</p>
+              <a href="tick-project.html" class="card-link">Learn More</a>
+            </div>
+  
           </div>
 
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="public/images/mao-run.png" alt="Mao Run Image">
-          <div class="card-body">
-            <h3 class = "card-title">Mao Run</h3>
-            <h6 class="card-subtitle">Game Development</h6>
-            <p class="card-text">Created using Python and Pygame, this game challenges users to learn through failure.</p>
-            <a href="mao-run.html" class="card-link">Learn More</a>
+          <div class="card">
+            <img class="card-img-top" src="public/images/mao-run.png" alt="Mao Run Image">
+            <div class="card-body">
+              <h3 class = "card-title">Mao Run</h3>
+              <h6 class="card-subtitle">Game Development</h6>
+              <p class="card-text">Created using Python and Pygame, this game challenges users to learn through failure.</p>
+              <a href="mao-run.html" class="card-link">Learn More</a>
+            </div>
+  
           </div>
 
+          <div class="card">
+            <img class="card-img-top" src="public/images/NBPS_home.png" alt="North Broward Image">
+            <div class="card-body">
+              <h3 class = "card-title">North Broward Alumni Network</h3>
+              <h6 class="card-subtitle">Web Development</h6>
+              <p class="card-text">Created using Figma, HTML / CSS, Node.JS, MongoDB, EJS, and Express.JS in collaboration with
+                 North Broward Preparatory School's Alumni Network.</p>
+              <a href="alumni-network.html" class="card-link">Learn More</a>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section>
+
+      <hr class="section-break">
+
+      <!-- Skills -->
+      <section id="skills" class="padding">
+        <div class="icon-title">
+          <svg class="section-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear-wide-connected" viewBox="0 0 16 16">
+            <path d="M7.068.727c.243-.97 1.62-.97 1.864 0l.071.286a.96.96 0 0 0 1.622.434l.205-.211c.695-.719 1.888-.03 1.613.931l-.08.284a.96.96 0 0 0 1.187 1.187l.283-.081c.96-.275 1.65.918.931 1.613l-.211.205a.96.96 0 0 0 .434 1.622l.286.071c.97.243.97 1.62 0 1.864l-.286.071a.96.96 0 0 0-.434 1.622l.211.205c.719.695.03 1.888-.931 1.613l-.284-.08a.96.96 0 0 0-1.187 1.187l.081.283c.275.96-.918 1.65-1.613.931l-.205-.211a.96.96 0 0 0-1.622.434l-.071.286c-.243.97-1.62.97-1.864 0l-.071-.286a.96.96 0 0 0-1.622-.434l-.205.211c-.695.719-1.888.03-1.613-.931l.08-.284a.96.96 0 0 0-1.186-1.187l-.284.081c-.96.275-1.65-.918-.931-1.613l.211-.205a.96.96 0 0 0-.434-1.622l-.286-.071c-.97-.243-.97-1.62 0-1.864l.286-.071a.96.96 0 0 0 .434-1.622l-.211-.205c-.719-.695-.03-1.888.931-1.613l.284.08a.96.96 0 0 0 1.187-1.186l-.081-.284c-.275-.96.918-1.65 1.613-.931l.205.211a.96.96 0 0 0 1.622-.434l.071-.286zM12.973 8.5H8.25l-2.834 3.779A4.998 4.998 0 0 0 12.973 8.5zm0-1a4.998 4.998 0 0 0-7.557-3.779l2.834 3.78h4.723zM5.048 3.967c-.03.021-.058.043-.087.065l.087-.065zm-.431.355A4.984 4.984 0 0 0 3.002 8c0 1.455.622 2.765 1.615 3.678L7.375 8 4.617 4.322zm.344 7.646.087.065-.087-.065z"/>
+          </svg>
+          <h4 class="section-header">SKILLS</h4>
         </div>
 
-      </div>
-    </section>
-
-
-
-    <!-- Divider -->
-    <div class="divider div-transparent"></div>
-
-    <!-- About Me -->
-    <section id = "about-me-section" class="about-section about-me padding info-section">
-      <h2 class="heading-padding">About Me</h4>
-      <p>I am a Software Developer currently completing a Bachelor of Science in Engineering, with a
-      concentration in computing from Olin College of Engineering. I have experience
-      in data science and web development, as well as mobile development.</p>
-      <div class="container text-center">
-        <div class="row text-center">
-          <div class="col">
-            <h5>Web Development</h5>
+        <div class="row skill-row">
+          <div class="col skill-col">
             <ul class="skill-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Node.JS</li>
-                <li>EJS</li>
-                <li>Express.JS</li>
-                <li>MongoDB</li>
-                <li>Figma</li>
-            </ul>
-          </div>
-          <div class="col">
-            <h5>Technologies</h5>
-            <ul class="skill-list">
+              <li class="list-title">Languages</li>
+              <hr class="experience-break">
               <li>Python</li>
+              <li>Rust</li>
+              <li>C</li>
+              <li>C++</li>
               <li>MATLAB</li>
+              <li>R</li>
+              <li>OCaml</li>
+              <li>C#</li>
+              <li>HTML/CSS</li>
               <li>Java</li>
               <li>JavaScript</li>
               <li>Flutter</li>
-              <li>SolidWorks</li>
-              <li>Git</li>
+            </ul>
+          </div>
+          <div class="col skill-col">
+            <ul class="skill-list">
+              <li class="list-title">Experience</li>
+              <hr class="experience-break">
+              <li>Embedded Software</li>
+              <li>Data Science</li>
+              <li>Web Development</li>
+              <li>Game Development</li>
+              <li>Mobile Development</li>
             </ul>
           </div>
         </div>
-      </div>
+      </section>
 
-    </section>
+      <hr class="section-break">
 
-    <!-- Divider -->
-    <div class="divider div-transparent"></div>
+      <!-- Resume -->
+      <section id="resume" class="padding">
+        <div class="icon-title">
+          <svg class="section-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-person-fill" viewBox="0 0 16 16">
+            <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755z"/>
+          </svg>
+          <h4 class="section-header">RESUME</h4>
 
-    <!-- Contact -->
-    <section id = "contact-section" class="padding">
-      <h2 class="heading-padding">Contact</h4>
-      <div class="container">
-        <div class="row text-center contact-content">
-          <div class="col-sm">
-            <a href="mailto:ljbaker.contact@gmail.com?subject=Mail from Website">Email</a>
-          </div>
-          <div class="col-sm">
-            <a href="https://github.com/lilibaker">GitHub</a>
-          </div>
-          <div class="col-sm">
-            <a href="https://www.linkedin.com/in/lili-baker/">LinkedIn</a>
-          </div>
         </div>
-      </div>
+        <div class="centered-text">
+          <iframe src="https://drive.google.com/file/d/1vp0ZJGKl2kZs57VsmjTvYj4miX5GaZkU/preview" width="640" height="480" allow="autoplay"></iframe>      </section>
 
-    </section>
+    </div>
+    
 
   </body>
 </html>

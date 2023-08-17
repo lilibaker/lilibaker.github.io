@@ -1,4 +1,13 @@
 
+body {
+  background: #10131D;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .heading-padding{
   padding-bottom: 1rem;
 }
@@ -9,12 +18,67 @@
 
 
 .portfolio-image{
-    width: 400px;
+  width: 400px;
 }
 
 .portfolio-table{
   padding: 1rem;
 }
+
+.centered-box {
+  margin: 0rem auto;
+}
+
+.rectangle-background {
+  width: 70%;
+  height: auto;
+  max-width: 66.9375rem;
+  border-radius: 1.875rem;
+  background: #181D25;
+  margin-bottom: 8rem;
+}
+
+.section-icon {
+  width: 3rem;
+  height: 3rem;
+  margin: 0rem 1rem 0rem 0rem;
+  position: relative;
+}
+
+.section-header {
+  font-weight: 400;
+  font-size: 1.5rem;
+  position: relative;
+  margin: 0;
+  padding: .5rem;
+}
+
+.icon-title {
+  margin: 2rem 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.body-text {
+  width: 50rem;
+  height: auto;
+  line-height: normal; 
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+
+.centered-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 4rem 1rem 4rem;
+}
+
+.section-break {
+  border: .1rem solid white;
+  width: 85%;
+}
+
 
 /* Navbar */
 .navbar{
@@ -37,7 +101,7 @@
 }
 
 .link a{
-    color: #000;
+    color: #FFF;
     opacity: 0.5;
     text-decoration: none;
     text-transform: capitalize;
@@ -56,7 +120,7 @@
 /* Home Page */
 /* Home Screen */
 #home-section{
-  margin: 10rem;
+  margin: 12rem 13rem 0rem 13rem;
   height: 100%;
 }
 
@@ -66,7 +130,125 @@
 }
 
 #name{
-  font-size: 48px;
+  width: 39.0625rem;
+  height: 9.3125rem;
+  flex-shrink: 0;
+  color: #FFF;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#work-title {
+  color: #FFF;
+  font-size: 2rem;
+  /* font-style: normal; */
+  font-weight: 200;
+  line-height: normal;
+}
+
+.circle-container {
+  margin-left: 2rem;
+  position: relative;
+  width: 15.3125rem;
+  height: 15.3125rem;
+}
+
+.circle-image {
+  position: relative;
+  width: 18rem; 
+  height: auto; 
+  z-index: 1; 
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+/* Work Experience */
+.experience-box {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin: 2rem 6rem;
+  /* background-color: aqua; */
+}
+
+.interactive-section {
+  cursor: pointer;
+  background-color: #181D25;
+  /* transition: background-color 0.3s ease, cursor 0s ease; */
+  /* opacity: 1; */
+}
+
+.interactive-section:hover {
+  cursor: pointer;
+  /* transition: opacity 0.3s ease; */
+  /* opacity: 1; */
+  /* background-color: #10131D; */
+}
+
+.experience-header {
+  font-size: 1.2rem;
+}
+
+.experience-subtitle {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.experience-body {
+  font-weight: 100;
+}
+
+.experience-break {
+  border: .05rem solid white;
+  width: 80%;
+}
+
+.experience-link {
+  color: #73a9c6;
+}
+
+/* Project Section */
+.card {
+  background-color: rgba(167, 194, 209, 0.34);
+  color: white;
+}
+
+.card-link {
+  color: #73a9c6;
+}
+
+.card-subtitle {
+  padding: .5rem 0;
+  font-weight: 400;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: .9rem;
+  font-weight: 100;
+}
+
+/* Contact Buttons */
+.sticky-buttons {
+  position: sticky;
+  top: 10%;
+  float: right;
+}
+
+.contact-button {
+  margin: 1.5rem 2rem;
+  cursor: pointer;
+}
+
+.contact-image {
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 
@@ -79,9 +261,144 @@
   list-style: none;
 
 }
-.skill-list{
+
+
+/* Skills */
+.skill-row {
+  margin: 2rem 6rem;
+
+}
+
+.skill-col {
+  text-align: center;
+}
+
+.skill-list {
   list-style: none;
 }
+
+.skill-list li {
+  margin-bottom: .5rem;
+}
+
+.list-title {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+
+
+
+/* Project Pages */
+.project-margin {
+  margin: 0 10rem 0 5rem;
+}
+
+.project-left {
+  /* margin: 20rem 50rem 0rem 6rem; */
+  /* margin: 20rem 20rem 0rem 6rem; */
+  /* margin-right: 3rem; */
+  /* padding-right: 30rem; */
+  margin: 2rem 0 0 0;
+}
+
+.project-right {
+  width: 40rem;
+  height: auto;
+  background: #181D25;
+  margin: 0 0 0 0;
+  display: flex;
+  padding: 0 0 2rem 0;
+  border-bottom-left-radius: 1.875rem;
+  border-bottom-right-radius: 1.875rem;
+}
+
+.project-limited-width {
+  max-width: 80%;
+}
+
+/* Project Header */
+.project-header-margin {
+  margin-top: 15rem;
+}
+
+.project-title {
+  flex-shrink: 0;
+  color: #FFF;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1.5rem;
+}
+
+.project-title-long {
+  flex-shrink: 0;
+  color: #FFF;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1.5rem;
+}
+
+.project-title-line{
+  border: .1rem solid white;
+  width: 84%;
+  margin-left: 6rem;
+}
+
+.project-button {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.project-code {
+  width: 5rem;
+  height: 5rem;
+}
+
+.project-right-title {
+  width: 40rem;
+  height: auto;
+  border-top-left-radius: 1.875rem;
+  border-top-right-radius: 1.875rem;
+  background: #181D25;
+  margin: 0 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+/* Project content */
+.project-right-margin {
+  margin-top: 1rem;
+}
+
+.project-left-padding {
+  padding: 0 0 2rem 4rem;
+}
+
+.project-content-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.project-content-line {
+  border: .05rem solid white;
+  width: 50%;
+  margin-left: 8rem;
+}
+
+.project-picture {
+  margin: 2rem;
+  width: 50%;
+  height: auto;
+}
+
+
+
+
 
 
 /* Portfolio */
@@ -126,68 +443,3 @@
 }
 
 
-
-/* Project Pages */
-.project-intro{
-  background-color: #D2D1D6;
-
-}
-
-.project-title{
-  font-size: 48px;
-  margin: 17rem 7rem 2rem 7rem;
-
-}
-
-.project-detail{
-  color: #676768;
-  margin: 0 0 0 7rem;
-}
-
-
-.project-description{
-  margin: 6rem 6rem 3rem 6rem;
-  padding: 3rem;
-}
-
-.project-tech-list{
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.project-tech-list li{
-  display: inline-block;
-  padding: 10px 30px;
-  margin: 0 20px;
-}
-
-.project-video{
-  text-align: center;
-  margin: 3rem 0;
-}
-
-.btn-padding{
-  padding:1rem 1rem 0 1rem;
-}
-
-.btn-col{
-  align-items: center;
-  text-align: center;
-  vertical-align: middle;
-
-}
-
-.project-images-title{
-  margin-top: 6rem;
-  margin-bottom: 0rem;
-}
-.project-images-text{
-  margin-left: 6rem;
-  margin-right: 6rem;
-}
-
-.project-images{
-  max-width: 75%;
-}
