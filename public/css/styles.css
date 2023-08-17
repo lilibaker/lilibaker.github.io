@@ -51,6 +51,7 @@ body {
   font-size: 1.5rem;
   position: relative;
   margin: 0;
+  padding: .5rem;
 }
 
 .icon-title {
@@ -63,8 +64,8 @@ body {
   width: 50rem;
   height: auto;
   line-height: normal; 
-  /* margin: 2rem; */
-
+  font-size: 1.1rem;
+  font-weight: 100;
 }
 
 .centered-text {
@@ -161,6 +162,76 @@ body {
   z-index: 1; 
   border-radius: 50%;
   overflow: hidden;
+}
+
+
+/* Work Experience */
+.experience-box {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin: 2rem 6rem;
+  /* background-color: aqua; */
+}
+
+.interactive-section {
+  cursor: pointer;
+  background-color: #181D25;
+  /* transition: background-color 0.3s ease, cursor 0s ease; */
+  /* opacity: 1; */
+}
+
+.interactive-section:hover {
+  cursor: pointer;
+  /* transition: opacity 0.3s ease; */
+  /* opacity: 1; */
+  /* background-color: #10131D; */
+}
+
+.experience-header {
+  font-size: 1.2rem;
+}
+
+.experience-subtitle {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.experience-body {
+  font-weight: 100;
+}
+
+.experience-break {
+  border: .05rem solid white;
+  width: 80%;
+}
+
+.experience-link {
+  color: #73a9c6;
+}
+
+/* Project Section */
+.card {
+  background-color: rgba(167, 194, 209, 0.34);
+  color: white;
+}
+
+.card-link {
+  color: #73a9c6;
+}
+
+.card-subtitle {
+  padding: .5rem 0;
+  font-weight: 400;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: .9rem;
+  font-weight: 100;
 }
 
 /* Contact Buttons */
