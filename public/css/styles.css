@@ -289,6 +289,107 @@ body {
 
 
 
+/* Project Pages */
+.project-margin {
+  margin: 0 10rem 0 5rem;
+}
+
+.project-left {
+  /* margin: 20rem 50rem 0rem 6rem; */
+  /* margin: 20rem 20rem 0rem 6rem; */
+  /* margin-right: 3rem; */
+  /* padding-right: 30rem; */
+  margin: 2rem 0 0 0;
+}
+
+.project-right {
+  width: 40rem;
+  height: auto;
+  background: #181D25;
+  margin: 0 0 0 0;
+  display: flex;
+  padding: 0 0 2rem 0;
+  border-bottom-left-radius: 1.875rem;
+  border-bottom-right-radius: 1.875rem;
+}
+
+.project-limited-width {
+  max-width: 80%;
+}
+
+/* Project Header */
+.project-header-margin {
+  margin-top: 15rem;
+}
+
+.project-title {
+  flex-shrink: 0;
+  color: #FFF;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1.5rem;
+}
+
+.project-title-line{
+  border: .1rem solid white;
+  width: 84%;
+  margin-left: 6rem;
+}
+
+.project-button {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.project-code {
+  width: 5rem;
+  height: 5rem;
+}
+
+.project-right-title {
+  width: 40rem;
+  height: auto;
+  border-top-left-radius: 1.875rem;
+  border-top-right-radius: 1.875rem;
+  background: #181D25;
+  margin: 0 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+/* Project content */
+.project-right-margin {
+  margin-top: 1rem;
+}
+
+.project-left-padding {
+  padding: 0 0 2rem 4rem;
+}
+
+.project-content-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.project-content-line {
+  border: .05rem solid white;
+  width: 50%;
+  margin-left: 8rem;
+}
+
+.project-picture {
+  margin: 2rem;
+  width: 50%;
+  height: auto;
+}
+
+
+
+
+
 
 
 /* Portfolio */
@@ -335,7 +436,7 @@ body {
 
 
 /* Project Pages */
-.project-intro{
+/* .project-intro{
   background-color: #D2D1D6;
 
 }
@@ -397,4 +498,4 @@ body {
 
 .project-images{
   max-width: 75%;
-}
+} */
