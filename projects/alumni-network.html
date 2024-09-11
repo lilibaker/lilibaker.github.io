@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <title>Lili Baker</title>
-    <link rel="icon" type="image/x-icon" href="public/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../public/images/favicon.ico">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="public/css/styles.css">
+    <link rel="stylesheet" href="../public/css/styles.css">
 </head>
 
 <body>
@@ -16,13 +16,12 @@
   <!-- Navigation bar -->
   <nav class="navbar">
     <ul class="link-group">
-      <li class="link"><a href="index.html#home-section">home</a></li>
-      <li class="link"><a href="index.html#about-me-section">about</a></li>
-      <li class="link"><a href="index.html#work-experience">experience</a></li>
-      <li class="link"><a href="index.html#projects">projects</a></li>
-      <li class="link"><a href="index.html#skills">skills</a></li>
-      <li class="link"><a href="index.html#resume">resume</a></li>
-    </ul>
+      <li class="link"><a href="../index.html#home-section">home</a></li>
+      <li class="link"><a href="../index.html#about-me-section">about</a></li>
+      <li class="link"><a href="../index.html#work-experience">experience</a></li>
+      <li class="link"><a href="../index.html#projects">projects</a></li>
+      <li class="link"><a href="../index.html#skills">skills</a></li>
+      <li class="link"><a href="../index.html#resume">resume</a></li>
   </nav>
 
   <div>
@@ -56,17 +55,10 @@
         <!-- Header -->
         <div class="row project-margin project-header-margin">
             <div class="col-12 col-md-8 project-left">
-                <h1 class="project-title-long">Analysis of Effects of Weather Patterns on Ticks</h1>
-                <h4>Web Scraping and Data Science</h4>
+                <h1 class="project-title">Alumni Network</h1>
+                <h4>Web Development</h4>
             </div>
             <div class="col-6 col-md-4 project-right-title">
-                <div class="project-button">
-                    <a href="https://github.com/olincollege/tick-weather-analyzer">
-                      <svg class="project-code" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-github" viewBox="0 0 16 16">
-                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                      </svg>
-                    </a>
-                  </div>
             </div>
         </div>
         <hr class="project-title-line">
@@ -75,22 +67,27 @@
             <div class="col-12 col-md-8 project-left project-left-padding">
                 <h4 class="project-content-title">ABOUT</h4>
                 <p class="project-limited-width">
-                  This project obtains data from the National Ecological Observatory Network,
-                  and uses said data to perform an analysis of the impact of relative
-                  humidity and precipitation on tick populations at the Harvard Forest &
-                  Quabbin Watershed, a NEON field site managed by Harvard University. In
-                  order to do so, the tick population, relative humidity, and precipitation
-                  data are accessed from NEON using an API.
+                  The Alumni Network for North Broward Prepartory School was having
+                  issues disseminating information to alumni post-graudation and wanted
+                  to create a way for alumni to cultivate connections. After learning
+                  the needs of the organization, I designed a secure webapp that
+                  enabled users to search for other alumni, edit their profile,
+                  and publish posts about career opportunities. The webapp was presented
+                  to the Alumni Network throughout the development process and the
+                  feedback received was implemented.
                 </p>
             </div>
             <div class="col-6 col-md-4 project-right">
                 <ul class="skill-list project-right-margin">
                     <li class="project-right-margin project-content-title">TECHNOLOGIES</li>
-                    <li>Python</li>
-                    <li>Pandas</li>
-                    <li>NumPy</li>
-                    <li>Matplotlib</li>
-                    <li>Requests</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>EJS</li>
+                    <li>Express.JS</li>
+                    <li>MongoDB</li>
+                    <li>Node.JS</li>
+                    <li>Figma</li>
+                    <li>Bootsrap</li>
                 </ul>
             </div>
         </div>
@@ -100,32 +97,22 @@
             <div class="col-12 col-md-8 project-left project-left-padding">
                 <h4 class="project-content-title">SKILLS USED</h4>
                 <ul class="project-limited-width">
-                  <li>Design unit tests to check functions operate as intended</li>
-                  <li>Scrape data from NEON datasource using requests</li>
-                  <li>Manipulate data to narrow down to required information</li>
-                  <li>Use Matplotlib to illustrate impacts of weather patterns</li>
-                  <li>Use NumPy to determine correlation between weather patterns and ticks</li>
-                  <li>Collaborate with a group in each step of the process</li>
-                  <li>Write a computational essay explaining procedure and results</li>
+                  <li>Designed test plan, database structure, and user experience maps</li>
+                  <li>Created a prototype using Figma</li>
+                  <li>Developed a dynamic user interface with HTML/CSS and EJS</li>
+                  <li>Implemented Model View Controller architecture with Mongoose</li>
+                  <li>Created a NoSQL database with MongoDB</li>
+                  <li>Implemented REST API to create career posts and update profile information</li>
+                  <li>Authenticated users with Google Authentication through Passport</li>
+                  <li>Collaborated with client to develop product that matched their needs</li>
                 </ul>
             </div>
         </div>
         <hr class="project-content-line">
         <!-- Image -->
         <div class="text-center padding">
-            <!-- <img class="project-picture" src="public/images/tick-correlation.png" alt="tick"> -->
-            <div class="row">
-              <div class="col">
-                <img class=" project-picture"src=" public/images/tick-weather.png" alt="Tick Weather Image">
-      
-              </div>
-              <div class="col">
-                <img class=" project-picture" src="public/images/tick-correlation.png" alt="Tick Correlation Image">
-              </div>
-            </div>
-            <p class="padding">
-              Based on our graphs, one may suggest that as relative humidity increases, the occurences of ticks also increase. It also suggests that precipitation has no impact on tick population. However, our data is taken over the course of five months, which is a limited amount of time, and the correlation we see between humidity and tick population does not necessarily demonstrate causation. The relationship between tick population and relative humidity could be due to external factors, such as an increase in primary hosts of ticks (commonly deer and mice). One major contextual implication is climate change causing an increase in temperature may imply an increase in tick population as global warming continues, which could lead to an increase in tick-borne diseases.
-            </p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Np519KzF4E8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
       </div>
   </div>
